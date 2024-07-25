@@ -1,0 +1,24 @@
+body{
+    background-color : grey;
+}
+.flex-container{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container{
+    display: grid;
+    /* background-color: grey; */
+    height: 500px;
+    width: 500px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+    grid-template-columns :50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    row-gap: 3px;
+    column-gap: 3px;
+}
+.grid-items{
+    font-size: 30px;
+    text-align:center;
+    background-color: lightblue;
+    border: 2px solid black;
+}

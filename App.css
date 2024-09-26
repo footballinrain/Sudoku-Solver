@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.grid {
+  display: inline-block;
+}
+
+.row {
+  display: flex;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
